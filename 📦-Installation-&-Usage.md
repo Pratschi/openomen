@@ -2,19 +2,23 @@
 
 ### 1. Download
 
-Download the latest version of the AppImage from the [releases](https://github.com/openomen/openomen/releases) page:
+Download the latest version of the Binary Executable from the [releases](https://github.com/openomen/openomen/releases) page:
 
 
-### 2. Make it executable
+### 2. Make the script executable:
 
-Navigate to the directory where the AppImage is located and run:
+Navigate to the directory where the script is located and run:
 ```bash
-chmod +x OpenOMEN-x86_64.AppImage
+chmod +x openomen
 ```
-### 3. Run the app
+(Optional) Move to a directory in your PATH:
+```bash
+sudo cp openomen /usr/local/bin/
+```
+### 3. Run the executable
 
-You can run the **Omen Fanboost** either via terminal:
+You can run the script via terminal:
 
 ```bash
-sudo ./OpenOMEN-x86_64.AppImage
+openomen
 ```
